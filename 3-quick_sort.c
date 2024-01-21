@@ -13,12 +13,12 @@ void quick_sort(int *array, size_t size)
 }
 
 /**
- * sort_array - sorts the array
- * @array: the array to be sorted
- * @low: the initial index
- * @high: the last index item
- * @size: the size of the array
- * Return: nothing
+ * sort_array - This is sorts the array
+ * @array: this the array to be sorted
+ * @low: this is the initial index
+ * @high: this is the last index item
+ * @size: this is the size of the array
+ * Return: null
  */
 void sort_array(int *array, size_t low, size_t high, size_t size)
 {
