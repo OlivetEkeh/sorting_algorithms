@@ -36,6 +36,8 @@ listint_t *create_listint(const int *array, size_t size);
 void swap_nodes(listint_t *a, listint_t *b);
 listint_t *tail_reversal(listint_t *head, listint_t *tail, listint_t *list);
 void cocktail_sort_list(listint_t **list);
+void *_calloc(unsigned int nmemb, unsigned int size);
+void counting_sort(int *array, size_t size);
 
 
 #endif
